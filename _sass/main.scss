@@ -1,0 +1,45 @@
+$prob-prime-color: #00A9DA;
+
+$threshold-width: 450px;
+
+$desktop-width: 1080px;
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: $prob-prime-color; 
+}
+
+h1
+{
+	width: 100%;
+}
+
+p
+{
+	width: 100%;
+}
+
+.container
+{
+	background-color: white;
+	margin: 0 auto;
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Desktop Additional Rules */
+
+@media only screen and (min-width: $threshold-width)
+{
+	.container
+	{
+		max-width: $desktop-width;
+	}	
+}
