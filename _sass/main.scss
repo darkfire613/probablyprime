@@ -1,5 +1,9 @@
 $prob-prime-color: #00A9DA;
 
+$prob-prime-font: "Alice", serif;
+
+$text-margin: 10px;
+
 $threshold-width: 450px;
 
 $desktop-width: 1080px;
@@ -18,11 +22,26 @@ body
 h1
 {
 	width: 100%;
+	font-family: $prob-prime-font;
+	margin: $text-margin;
+}
+
+.prime
+{
+	color: $prob-prime-color;
+}
+
+h2
+{
+	font-family: $prob-prime-font;
+	margin: $text-margin;
 }
 
 p
 {
 	width: 100%;
+	font-family: $prob-prime-font;
+	margin: $text-margin;
 }
 
 .container
